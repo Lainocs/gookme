@@ -1,8 +1,8 @@
 {
-  "steps": [
-    {
-      "name": "lint commit message",
-      "command": "commitlint lint --message $1"
-    }
-  ]
+	"steps": [
+		{
+			"name": "lint commit message",
+			"command": "commitlint --edit $1"
+		}
+	]
 }
